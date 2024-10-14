@@ -1,0 +1,115 @@
+.LoginSignup{
+    width: 100%;
+    height: 80vh;
+    background: #dcf1dc;
+    padding-top: 100px;
+}
+.LoginSignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.LoginSignup-container h1{
+    margin: 20px 0px;
+}
+.LoginSignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.LoginSignup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.LoginSignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.LoginSignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.LoginSignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+.LoginSignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media(max-width:1280px){
+    .LoginSignup{
+        padding-top: 50px;
+    }
+.LoginSignup-container{
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}    
+.LoginSignup-container h1{
+    margin: 10px 0;
+}
+.LoginSignup-fields{
+    gap: 20px;
+    margin-top: 20px;
+}
+.LoginSignup-fields input{
+    height: 65px;
+    width: 93%;
+}
+.LoginSignup-container button{
+    width: 100%;
+}
+.LoginSignup-login {
+    font-size: 16px;
+}
+.LoginSignup-agree{
+    font-size: 10px;
+    gap: 5px;
+}
+}
+
+@media(max-width:800px){
+   
+.LoginSignup-container{
+    padding: 20px 30px;
+}    
+.LoginSignup-container h1{
+    font-size: 24px;
+}
+.LoginSignup-fields{
+    margin-top: 20px;
+}
+.LoginSignup-fields input{
+    height: 50px;
+}
+.LoginSignup-container button{
+    width: 50px;
+    font-size: 16px;
+}
+}

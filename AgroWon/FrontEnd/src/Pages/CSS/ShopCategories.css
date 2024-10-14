@@ -1,0 +1,120 @@
+/* ShopCategories.css */
+
+.shop-category {
+    margin-bottom: 50px;
+}
+
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shopcategories-indexsort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategories-indexsort p span {
+    font-weight: 600;
+}
+
+.shopcategory-sort {
+    position: relative;
+}
+
+.shopcategory-sort select {
+    margin: 8px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px;
+    width: 171px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.shopcategory-sort select::-ms-expand {
+    display: none;
+}
+
+.shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    cursor: pointer;
+}
+
+.shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background: #ededed;
+    color: #787878;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shopcategory-loadmore:hover {
+    background: #ccc;
+}
+
+/* Search bar styles */
+.search-bar {
+    margin: 20px 170px;
+}
+
+.search-bar input[type="text"] {
+    margin: 5px;
+    width: 500px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    border-radius: 20px;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .shopcategory-products {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        row-gap: 3vw;
+    }
+
+    .shopcategory-loadmore {
+        width: 70%;
+        font-size: 16px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .shopcategory-products {
+        grid-template-columns: 1fr;
+    }
+
+    .shopcategory-loadmore {
+        margin: 30px auto;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .search-bar {
+        margin: 10px 20px;
+    }
+}
