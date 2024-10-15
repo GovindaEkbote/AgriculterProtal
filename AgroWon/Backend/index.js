@@ -230,7 +230,6 @@ app.get("/popularproducts", async (req, res) => {
 });
 
 // middlware to fetch user
-
 const fetchUser = async (req, res, next) => {
   const token = req.header("auth-token");
   if (!token) {
@@ -318,7 +317,6 @@ app.post("/payment", async (req, res) => {
 });
 
 // // Payment Database
-
 // const PaymentDetails = mongoose.model("paymentDetails", {
 //     name: {
 //       type: String,

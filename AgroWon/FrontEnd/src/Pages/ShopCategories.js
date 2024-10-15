@@ -83,7 +83,7 @@ const ShopCategories = (props) => {
   const { all_product } = useContext(ShopContext);
   const [sortBy, setSortBy] = useState('default');
   const [searchQuery, setSearchQuery] = useState('');
-  const [displayCount, setDisplayCount] = useState(12); // Initialize display count
+  const [displayCount, setDisplayCount] = useState(12);
 
   const sortingOptions = [
     // { value: 'price_low_to_high', label: 'price low to high' },

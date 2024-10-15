@@ -1,8 +1,0 @@
-FrontEnd:-  npm start
-BackEnd:- node index.js
-Admin:-   npm run dev
-
-
-# https://formspree.io/forms 
-
-# Payment https://dashboard.stripe.com/test/dashboard

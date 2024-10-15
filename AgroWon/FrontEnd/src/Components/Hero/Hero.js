@@ -11,16 +11,11 @@ const Hero = () => {
           <div className="hero-left">
             <h2>Who we are.</h2>
             <div>
-                {/* <div className="hero-hand-icon">
-                    <p>New</p>
-                    <img src={hand_icon} alt="" />
-                </div> */}
                 <p>AgroWon is the only global fertilizer association and has a membership of around 500 entities in some 80 countries, encompassing all actors in the fertilizer value chain.</p>
-                {/* <p>for everyone</p> */}
             </div>
             <div className="hero-latest-btn">
                 <div>
-                Explore More 
+                Explore More  
                      <img src={arrow_icon} alt="" />
                 </div>
             </div>

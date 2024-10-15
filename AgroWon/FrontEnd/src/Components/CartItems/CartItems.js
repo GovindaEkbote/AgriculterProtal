@@ -13,7 +13,7 @@ const CartItems = () => {
     mobile: "",
     address: "",
     pincode: "",
-    email: "", // Add email here
+    email: "", 
   });
 
   // Calculate total cart amount
